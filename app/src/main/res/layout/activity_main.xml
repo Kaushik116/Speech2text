@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech to Text"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"/>
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text will Appear Here"
+        android:layout_below="@id/btn_button"
+        android:textColor="@color/grey"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tv_text"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Text will appear here"-->
+<!--        android:layout_below="@+id/btn_button"-->
+<!--        android:textColor="@color/black"/>-->
+
+</RelativeLayout>
